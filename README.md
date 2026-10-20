@@ -2,8 +2,8 @@
 
 *A meter bridge for your rig.*
 
-[![Latest release](https://img.shields.io/github/v/release/devBezum/RigLEDs)](../../releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/devBezum/RigLEDs/total)](../../releases)
+[![Latest release](https://img.shields.io/github/v/release/wuerks/RigLEDs)](../../releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/wuerks/RigLEDs/total)](../../releases)
 [![Support on Ko-fi](https://img.shields.io/badge/Support-Ko--fi-FF5E5B?logo=ko-fi&logoColor=white)](https://ko-fi.com/devWuerks)
 
 A small desktop window that shows what your computer is doing as columns of glowing LEDs:
