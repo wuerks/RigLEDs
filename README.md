@@ -2,6 +2,9 @@
 
 *A meter bridge for your rig.*
 
+[![Latest release](https://img.shields.io/github/v/release/devBezum/RigLEDs)](../../releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/devBezum/RigLEDs/total)](../../releases)
+
 A small desktop window that shows what your computer is doing as columns of glowing LEDs:
 processor, graphics, memory, fans, temperatures, disks, network and sound — plus one narrow
 column per CPU core. It sounds an alarm when something runs too hot or too busy for too long,
@@ -20,7 +23,7 @@ machine actually reports and leaves the rest out — the **System** tab says wha
 
 | Reading | Works on |
 |---|---|
-| CPU use and each core, memory, disk activity, network, sound | Any PC — Intel or AMD |
+| CPU use, **every CPU core**, memory, disk activity, network, sound | Any PC — Intel or AMD |
 | CPU temperature | Intel Core, and AMD Ryzen (Zen) |
 | Motherboard fan speeds | Boards with a Nuvoton NCT67xx or ITE IT87xx sensor chip — most desktop motherboards (many laptops do not expose their fans) |
 | Graphics card use, temperature and fan | NVIDIA, AMD or Intel, read through Windows |
@@ -51,6 +54,17 @@ Get-FileHash Rig-LEDs-vX.Y.Z.zip -Algorithm SHA256
 The value it prints should equal the one in the release notes (and in the `.sha256` file beside
 the download). Rig LEDs also checks its own SHA-256 when it starts and warns only if it has been
 tampered with.
+
+## Privacy
+
+Rig LEDs runs entirely on your own computer. It collects **no** personal data, usage statistics
+or telemetry, and the readings it shows never leave your PC.
+
+- The **only** time it touches the internet is an anonymous check for a newer version: it asks
+  GitHub for this repository's latest release number. **Nothing about you or your computer is
+  sent** — no identifiers, no system details. You can turn the check off in **Settings → Display**.
+- If you **report an issue**, only what you choose to paste is shared. The **Diagnostics** text
+  lists your hardware and what was or wasn't read — handy for support, but review it before posting.
 
 ## Licence
 
