@@ -4,6 +4,7 @@
 
 [![Latest release](https://img.shields.io/github/v/release/devBezum/RigLEDs)](../../releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/devBezum/RigLEDs/total)](../../releases)
+[![Support on Ko-fi](https://img.shields.io/badge/Support-Ko--fi-FF5E5B?logo=ko-fi&logoColor=white)](https://ko-fi.com/devWuerks)
 
 A small desktop window that shows what your computer is doing as columns of glowing LEDs:
 processor, graphics, memory, fans, temperatures, disks, network and sound — plus one narrow
@@ -54,6 +55,12 @@ Get-FileHash Rig-LEDs-vX.Y.Z.zip -Algorithm SHA256
 The value it prints should equal the one in the release notes (and in the `.sha256` file beside
 the download). Rig LEDs also checks its own SHA-256 when it starts and warns only if it has been
 tampered with.
+
+## Support this project
+
+Rig LEDs is free, with no ads and no tracking. If it has earned a place on your desktop, you can
+**[buy me a coffee on Ko-fi](https://ko-fi.com/devWuerks)** — card or PayPal, no account needed.
+It genuinely helps me keep improving it and build the next one. Thank you. ☕
 
 ## Privacy
 
