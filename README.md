@@ -61,10 +61,16 @@ a newer setup the same way. To remove it: **Settings → Apps → Rig LEDs → U
 
 ## Verify your download
 
-SHA-256. Use the following.
+**Download:** `rig-leds-setup-1.0.0.exe`
+
+**SHA-256 Checksum:**
+
+`B9988FDAFF47A2C78709C5814AF8D98300E571126051C5C859E7A0ADA3978C73`
+
+Check your copy matches:
 
 ```powershell
-Get-FileHash rig-leds-setup-<version>.exe -Algorithm SHA256
+Get-FileHash rig-leds-setup-1.0.0.exe -Algorithm SHA256
 ```
 
 ## Privacy
