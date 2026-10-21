@@ -6,10 +6,9 @@
 [![Downloads](https://img.shields.io/github/downloads/wuerks/RigLEDs/total)](../../releases)
 [![Support on Ko-fi](https://img.shields.io/badge/Support-Ko--fi-FF5E5B?logo=ko-fi&logoColor=white)](https://ko-fi.com/devWuerks)
 
-A small desktop window that shows what your computer is doing as columns of glowing LEDs:
-processor, graphics, memory, fans, temperatures, disks, network and sound — plus one narrow
-column per CPU core. It sounds an alarm when something runs too hot or too busy for too long,
-and tells you which program is responsible.
+Rig LEDs shows what your computer is doing as columns of glowing LEDs: processor and every core,
+graphics, memory, fans, temperatures, disks, network and sound, live at a glance. It raises an
+alarm when something runs too hot or too busy for too long, and names the program responsible.
 
 ## Support this project
 
