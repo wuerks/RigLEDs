@@ -38,7 +38,7 @@ the **System** tab says what is missing and why. What each reading needs:
 |---|---|
 | CPU use, **every CPU core**, memory, disk activity, network, sound | Any PC — Intel or AMD |
 | CPU temperature | Intel Core, and AMD Ryzen (Zen) |
-| Motherboard fan speeds | Boards with a Nuvoton NCT67xx or ITE IT87xx sensor chip — most desktop motherboards (many laptops do not expose their fans) |
+| Motherboard fan speeds | Most desktop motherboards (many laptops do not expose their fans) |
 | Graphics card use, temperature and fan | NVIDIA, AMD or Intel, read through Windows |
 | NPU (AI accelerator) use | Shown when Windows lists one (e.g. Intel AI Boost) |
 
