@@ -11,16 +11,22 @@ processor, graphics, memory, fans, temperatures, disks, network and sound — pl
 column per CPU core. It sounds an alarm when something runs too hot or too busy for too long,
 and tells you which program is responsible.
 
-## Requirements
+## Prerequisites
 
-- A **desktop PC or laptop** running **Windows 10 or Windows 11**, 64-bit.
-- Nothing else to install. Everything is read through Windows and a small Microsoft-signed
-  driver that the setup puts in for you.
+### Software
 
-## What it can read
+- **Windows 10 or Windows 11, 64-bit** — desktop or laptop.
+- **Administrator rights to install.** The setup adds a small background sensor service and, if
+  your PC does not already have it, a Microsoft-signed driver (PawnIO) to read the CPU temperature
+  and motherboard fans — both need administrator approval. Windows asks for an administrator once
+  during setup. **If your account is not an administrator**, provide administrator credentials when
+  prompted, or ask whoever manages the PC to run the setup for you.
+- Nothing else to install — everything else is read through Windows.
 
-Most columns work on any PC; a few depend on your hardware. Rig LEDs shows only what your
-machine actually reports and leaves the rest out — the **System** tab says what is missing and why.
+### Hardware
+
+Rig LEDs runs on any PC and shows only what your machine actually reports, leaving the rest out —
+the **System** tab says what is missing and why. What each reading needs:
 
 | Reading | Works on |
 |---|---|
@@ -32,29 +38,31 @@ machine actually reports and leaves the rest out — the **System** tab says wha
 
 ## Download
 
-Get the latest **[Release](../../releases/latest)** and download `Rig-LEDs-vX.Y.Z.zip`.
+Get the latest **[Release](../../releases/latest)** and download `rig-leds-setup-X.Y.Z.exe`.
 
 ## Install
 
-1. Unzip it, and run **`rig-leds-setup-X.Y.Z.exe`**.
+You need **administrator rights** to install (see Prerequisites above).
+
+1. Run **`rig-leds-setup-X.Y.Z.exe`**.
 2. Agree to the licence and press **Install**.
-3. Windows asks for permission once — say **Yes**. (This lets it read your CPU temperature and
-   motherboard fans through a signed driver; nothing else needs it.)
+3. **Approve the administrator prompt** — choose **Yes**, or enter administrator credentials if
+   your account is not an administrator. This is required to install the sensor service and the
+   signed driver that read your CPU temperature and motherboard fans; nothing else needs it.
 
 Rig LEDs installs to `Program Files`, adds a Start-menu entry, and starts. To update later, run
 a newer setup the same way. To remove it: **Settings → Apps → Rig LEDs → Uninstall**.
 
 ## Verify your download (optional but recommended)
 
-Each release lists the ZIP's **SHA-256**. Check the file you downloaded matches before trusting it:
+Each release lists the setup's **SHA-256**. Check the file you downloaded matches before trusting it:
 
 ```powershell
-Get-FileHash Rig-LEDs-vX.Y.Z.zip -Algorithm SHA256
+Get-FileHash rig-leds-setup-X.Y.Z.exe -Algorithm SHA256
 ```
 
 The value it prints should equal the one in the release notes (and in the `.sha256` file beside
-the download). Rig LEDs also checks its own SHA-256 when it starts and warns only if it has been
-tampered with.
+the download).
 
 ## Support this project
 
