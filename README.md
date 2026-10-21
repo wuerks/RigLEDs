@@ -67,12 +67,6 @@ a newer setup the same way. To remove it: **Settings → Apps → Rig LEDs → U
 
 `B9988FDAFF47A2C78709C5814AF8D98300E571126051C5C859E7A0ADA3978C73`
 
-Check your copy matches:
-
-```powershell
-Get-FileHash rig-leds-setup-1.0.0.exe -Algorithm SHA256
-```
-
 ## Privacy
 
 Rig LEDs runs entirely on your own computer. It collects **no** personal data, usage statistics
