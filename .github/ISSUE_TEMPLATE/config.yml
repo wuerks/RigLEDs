@@ -1,0 +1,7 @@
+# Keep blank issues on: the app's "Report a problem" opens a pre-filled issue by URL, which
+# relies on the plain new-issue page still being available.
+blank_issues_enabled: true
+contact_links:
+  - name: Support the project (Ko-fi)
+    url: https://ko-fi.com/devWuerks
+    about: Rig LEDs is free - if it has earned a place on your desktop, you can buy me a coffee.

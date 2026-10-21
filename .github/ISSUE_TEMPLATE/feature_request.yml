@@ -1,0 +1,24 @@
+name: Feature request
+description: Suggest an idea or improvement for Rig LEDs
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like?
+      description: The feature or change you have in mind.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why would it help?
+      description: What problem it solves, or what it would let you do.
+    validations:
+      required: false
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Anything you already tried or considered?
+    validations:
+      required: false

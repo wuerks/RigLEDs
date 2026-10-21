@@ -1,0 +1,32 @@
+name: Bug report / problem
+description: Something isn't working, or a reading is wrong or missing
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What went wrong, and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: false
+  - type: input
+    id: version
+    attributes:
+      label: Rig LEDs version
+      description: See the About tab (for example 0.2.66).
+    validations:
+      required: false
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Diagnostics
+      description: "In the app: Settings -> System -> Copy (under Diagnostics), then paste here. It lists your hardware and what was or wasn't read."
+      render: text
+    validations:
+      required: false

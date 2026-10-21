@@ -90,6 +90,7 @@ or resell it. It is provided “as is”, with no warranty. It carries the signe
 
 ## Support
 
-Found a problem or have a request? Open an **[issue](../../issues)**. For anything missing a
-reading, open **Settings → System** in the app, press **Copy** under **Diagnostics**, and paste
-that in — it says exactly what was found and why.
+Found a problem or have an idea? Open a **[new issue](../../issues/new/choose)** and pick
+**Bug report** or **Feature request**. For anything missing a reading, open **Settings → System**
+in the app, press **Copy** under **Diagnostics**, and paste that into the bug report — it says
+exactly what was found and why.
