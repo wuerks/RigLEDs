@@ -44,13 +44,13 @@ the **System** tab says what is missing and why. What each reading needs:
 
 ## Download
 
-Get the latest **[Release](../../releases/latest)** and download `rig-leds-setup-X.Y.Z.exe`.
+Get the latest **[Release](../../releases/latest)** and download `rig-leds-setup-<version>.exe`.
 
 ## Install
 
 You need **administrator rights** to install (see Prerequisites above).
 
-1. Run **`rig-leds-setup-X.Y.Z.exe`**.
+1. Run **`rig-leds-setup-<version>.exe`**.
 2. Agree to the licence and press **Install**.
 3. **Approve the administrator prompt** — choose **Yes**, or enter administrator credentials if
    your account is not an administrator. This is required to install the sensor service and the
@@ -64,7 +64,7 @@ a newer setup the same way. To remove it: **Settings → Apps → Rig LEDs → U
 Each release lists the setup's **SHA-256**. Check the file you downloaded matches before trusting it:
 
 ```powershell
-Get-FileHash rig-leds-setup-X.Y.Z.exe -Algorithm SHA256
+Get-FileHash rig-leds-setup-<version>.exe -Algorithm SHA256
 ```
 
 The value it prints should equal the one in the release notes (and in the `.sha256` file beside
