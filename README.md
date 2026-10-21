@@ -11,6 +11,12 @@ processor, graphics, memory, fans, temperatures, disks, network and sound — pl
 column per CPU core. It sounds an alarm when something runs too hot or too busy for too long,
 and tells you which program is responsible.
 
+## Support this project
+
+Rig LEDs is free, with no ads and no tracking. If it has earned a place on your desktop, you can
+**[buy me a coffee on Ko-fi](https://ko-fi.com/devWuerks)** — card or PayPal, no account needed.
+It genuinely helps me keep improving it and build the next one. Thank you. ☕
+
 ## Prerequisites
 
 ### Software
@@ -48,7 +54,7 @@ You need **administrator rights** to install (see Prerequisites above).
 2. Agree to the licence and press **Install**.
 3. **Approve the administrator prompt** — choose **Yes**, or enter administrator credentials if
    your account is not an administrator. This is required to install the sensor service and the
-   signed driver that read your CPU temperature and motherboard fans; nothing else needs it.
+   signed driver that reads your CPU temperature and motherboard fans; nothing else needs it.
 
 Rig LEDs installs to `Program Files`, adds a Start-menu entry, and starts. To update later, run
 a newer setup the same way. To remove it: **Settings → Apps → Rig LEDs → Uninstall**.
@@ -63,12 +69,6 @@ Get-FileHash rig-leds-setup-X.Y.Z.exe -Algorithm SHA256
 
 The value it prints should equal the one in the release notes (and in the `.sha256` file beside
 the download).
-
-## Support this project
-
-Rig LEDs is free, with no ads and no tracking. If it has earned a place on your desktop, you can
-**[buy me a coffee on Ko-fi](https://ko-fi.com/devWuerks)** — card or PayPal, no account needed.
-It genuinely helps me keep improving it and build the next one. Thank you. ☕
 
 ## Privacy
 
