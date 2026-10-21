@@ -59,16 +59,13 @@ You need **administrator rights** to install (see Prerequisites above).
 Rig LEDs installs to `Program Files`, adds a Start-menu entry, and starts. To update later, run
 a newer setup the same way. To remove it: **Settings → Apps → Rig LEDs → Uninstall**.
 
-## Verify your download (optional but recommended)
+## Verify your download
 
-Each release lists the setup's **SHA-256**. Check the file you downloaded matches before trusting it:
+SHA-256. Use the following.
 
 ```powershell
 Get-FileHash rig-leds-setup-<version>.exe -Algorithm SHA256
 ```
-
-The value it prints should equal the one in the release notes (and in the `.sha256` file beside
-the download).
 
 ## Privacy
 
