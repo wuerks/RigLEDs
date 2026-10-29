@@ -13,10 +13,10 @@ alarm when something runs too hot or too busy for too long, and names the progra
 ## Support this project
 
 Rig LEDs is free, with no ads and no tracking. If it has earned a place on your desktop, you can
-**[buy me a coffee](https://ko-fi.com/devWuerks)** on Ko-fi — card or PayPal, no account needed.
-It genuinely helps me keep improving it and build the next one.
+buy me a coffee on Ko-fi — card or PayPal, no account needed. It genuinely helps me keep
+improving it and build the next one.
 
-Thank you. ☕
+Thank you. ☕ &nbsp; <a href="https://ko-fi.com/devWuerks"><img src="donate.svg" alt="Donate" height="36" align="middle"></a>
 
 ## Prerequisites
 
