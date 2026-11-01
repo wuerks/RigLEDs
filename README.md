@@ -62,11 +62,11 @@ a newer setup the same way. To remove it: **Settings → Apps → Rig LEDs → U
 
 ## Verify your download
 
-**Download:** `rig-leds-setup-1.1.1.exe`
+**Download:** `rig-leds-setup-1.1.2.exe`
 
 **SHA-256 Checksum:**
 
-`E2F4B0509ACE5D024FEF89BE13BE49611090F3BB2092B2B400E4A4314FCFAE61`
+`762BC49EEEFE3576A9B0ED76838E1F43A0E9184744B650DF4095F54AC287E65E`
 
 ## Privacy
 
