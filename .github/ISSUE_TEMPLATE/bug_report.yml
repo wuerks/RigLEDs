@@ -1,5 +1,5 @@
 name: Bug report / problem
-description: Something isn't working, or a reading is wrong or missing
+description: Something is not working, or a reading is wrong or missing
 labels: ["bug"]
 body:
   - type: textarea
@@ -19,14 +19,14 @@ body:
     id: version
     attributes:
       label: Rig LEDs version
-      description: See the About tab (for example 0.2.66).
+      description: Shown on the System tab in Settings, for example 1.1.3.
     validations:
       required: false
   - type: textarea
     id: diagnostics
     attributes:
       label: Diagnostics
-      description: "In the app: Settings -> System -> Copy (under Diagnostics), then paste here. It lists your hardware and what was or wasn't read."
+      description: "In Rig LEDs, open Settings, go to the System tab and press Copy under Diagnostics. Paste it here. It lists your hardware and what could or could not be read."
       render: text
     validations:
       required: false
