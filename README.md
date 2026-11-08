@@ -62,11 +62,11 @@ newer setup the same way. To remove it, open Windows **Settings > Apps**, find R
 
 ## Verify your download
 
-**Download:** `rig-leds-setup-1.1.3.exe`
+**Download:** `rig-leds-setup-1.1.4.exe`
 
 **SHA-256 Checksum:**
 
-`77D4F7FE1A09060A6E299B11FA9CAEE6E450380FEAAC2A382540DF50BB89BEC7`
+`2BA2D44B026008D93F8825D35C3891D1741397BAA8ED98C690B3CFC4CA097B86`
 
 ## Privacy
 
